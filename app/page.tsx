@@ -103,7 +103,7 @@
       <div className="flex justify-end p-4">
         <button 
           onClick={togglePlay}
-          className={`bg-black text-white px-7 py-3 rounded-xl flex items-center ${PoppinsFontSemiBold.className}`}
+          className={`bg-black text-white px-7 py-3 2xl:px-12 2xl:py-4 rounded-xl flex items-center ${PoppinsFontSemiBold.className}`}
           disabled={!audioReady}
         >
           {audioReady ? (isPlaying ? "PAUSE" : "PLAY") : "Loading..."} - FRU! 
@@ -124,13 +124,13 @@
       
       <div className="flex-grow flex flex-col items-center justify-center">
         <div>
-          <h2 className={`text-lg md:text-2xl mb-4 ${Quadrophonic.className} text-left`}>UNDER CONSTRUCTION I THE EXPERIMENTAL</h2>
-          <h1 className={`text-[11rem] md:text-[20rem] leading-none ${Groovy_Craft.className}`}>FRU!</h1>
-          <h2 className={`text-lg md:text-2xl mt-4 ${Quadrophonic.className} text-right`}>FREE MINT I SUPPLY : 5,555 NFT I $FRU</h2>
+          <h2 className={`text-lg md:text-2xl 2xl:text-4xl mb-4 ${Quadrophonic.className} text-left`}>UNDER CONSTRUCTION I THE EXPERIMENTAL</h2>
+          <h1 className={`text-[11rem] md:text-[20rem] 2xl:text-[34rem] leading-none ${Groovy_Craft.className}`}>FRU!</h1>
+          <h2 className={`text-lg md:text-2xl 2xl:text-4xl mt-4 ${Quadrophonic.className} text-right`}>FREE MINT I SUPPLY : 5,555 NFT I $FRU</h2>
         </div>
       </div>
       
-      <div className="bg-black text-white p-4 text-center text-xl">
+      <div className="bg-black text-white p-4 text-center text-xl 2xl:text-3xl">
         <p className={`${PoppinsFont.className}`}>
           <span className={`${PoppinsFontBold.className}`}>FRU!</span> BUILD ON <span className={`${PoppinsFontBoldItalic.className}`}>$SEI</span>
         </p>
